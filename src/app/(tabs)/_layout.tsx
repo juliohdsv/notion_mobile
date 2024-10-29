@@ -25,11 +25,6 @@ export default function Layout(){
           tabBarIcon: ({ color, size }) => (
             <Feather name="home" size={size} color={color}/>
           ),
-          tabBarBadge: 2,
-          tabBarBadgeStyle:{
-            backgroundColor: colors.red[300],
-            borderRadius: 5,
-          }
         }}
       />
         <Tabs.Screen
@@ -46,6 +41,11 @@ export default function Layout(){
           tabBarIcon: ({ color, size }) => (
             <Feather name="inbox" size={size} color={color}/>
           ),
+          tabBarBadge: 2,
+          tabBarBadgeStyle:{
+            backgroundColor: colors.red[300],
+            borderRadius: 5,
+          }
         }}
       />
       <Tabs.Screen
